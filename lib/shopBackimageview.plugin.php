@@ -4,7 +4,7 @@ class shopBackimageviewPlugin extends shopPlugin
 {
     public function backendProducts()
     {
-        $result['toolbar_section'] = '123';
+        $result['toolbar_section'] = '';
         $js_path = $this->getPluginPath('js');
         $result['toolbar_section'] .= '<script src="'.$js_path.'backimageview.js"></script>';
         $css_path = $this->getPluginPath('css');
