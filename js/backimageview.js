@@ -3,8 +3,8 @@ this.backimageview = function(){
     xOffset = 100;
     yOffset = 150;
     $("div.s-image a img").hover(function(e){
-        var image = this.src.replace(/48x48/gi,'750x0');
-        image = image.replace(/200x0/gi,'750x0');
+        var image = this.src.replace(/.48x48./gi,'.750x0.');
+        image = image.replace(/.200x0./gi,'.750x0.');
         $("body").append("<p id='pluginBackPreview'><img src='"+ image +"'/></p>");
         var scrollYpos = $(document).scrollTop();
         $("#pluginBackPreview")
