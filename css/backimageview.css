@@ -1,0 +1,8 @@
+#pluginBackPreview {
+    position:absolute;
+    border:1px solid #ccc;
+    background: #DCDCDC;
+    padding:5px;
+    display:none;
+    color:#fff;
+}
