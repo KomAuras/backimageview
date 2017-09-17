@@ -8,7 +8,7 @@ class shopBackimageviewPlugin extends shopPlugin
         $js_path = $this->getPluginPath('js');
         $result['toolbar_section'] .= '<script src="'.$js_path.'backimageview.js"></script>';
         $css_path = $this->getPluginPath('css');
-        $result['toolbar_section'] .= '<link rel="stylesheet" href="'.$css_path.'backimageview.css" type="text/css">';
+        $result['toolbar_section'] .= '<link rel="stylesheet" href="'.$css_path.'backimageview.css?" type="text/css">';
         return $result;
     }
 

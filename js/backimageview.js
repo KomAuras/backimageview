@@ -1,40 +1,40 @@
 this.backimageview = function(){
-    //console.log('backimageview');
-    xOffset = 100;
-    yOffset = 150;
-    $("div.s-image a img").hover(function(e){
+    $("div.s-image a img:not([had])").hover(function(e){
+        $(this).attr("had", 1);
         var image = this.src.replace(/.48x48./gi,'.750x0.');
         image = image.replace(/.200x0./gi,'.750x0.');
-        $("body").append("<p id='pluginBackPreview'><img src='"+ image +"'/></p>");
-        var scrollYpos = $(document).scrollTop();
+        $("body").append("<div id='pluginBackPreview'><img src='"+ image +"'/></div>");
+        var scrollYpos = $(document).scrollTop()-10;
         $("#pluginBackPreview")
             .css("bottom",-scrollYpos)
-            .css("right","0px")
+            .css("right","10px")
             .fadeIn("fast");
     },
     function(){
         $("#pluginBackPreview").remove();
     });
-    $("div.s-image a img").mousemove(function(e){
-        var scrollYpos = $(document).scrollTop();
+
+    $("div.s-image a img:not([mad])").mousemove(function(e){
+        $(this).attr("mad", 1);
+        var scrollYpos = $(document).scrollTop()-10;
         $("#pluginBackPreview")
             .css("bottom",-scrollYpos)
-            .css("right","0px");
+            .css("right","10px");
     });
+
     setTimeout(function() {
         backimageview();
     }, 1000);    
 };
 
 $(document).ready(function(){
-    //console.log('ready');
     setTimeout(function() {
         backimageview();
     }, 1000);    
 });
 
 $(window).scroll(function() {
-    var scrollYpos = $(document).scrollTop();
+    var scrollYpos = $(document).scrollTop()-10;
     $("#pluginBackPreview").css({
         'bottom': -scrollYpos,
         'position': 'absolute'
