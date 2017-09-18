@@ -2,7 +2,7 @@
 
 return array(
     'name' => 'Back Image Review',
-    'description' => /*_wp*/('Превью картинки в админке магазина в управлении товаром'),
+    'description' => /*_wp*/('Preview images in the store admin panel in the management of the goods'),
     'version'=>'1.0.0',
     'vendor' => 1010465,
     'img' => 'img/backimageview.png',
