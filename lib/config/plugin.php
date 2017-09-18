@@ -6,7 +6,7 @@ return array(
     'version'=>'1.0.0',
     'vendor' => 1010465,
     'img' => 'img/backimageview.png',
-    'shop_settings' => false,
+    'shop_settings' => true,
     'handlers' => array(
         'backend_products' => 'backendProducts',
     )

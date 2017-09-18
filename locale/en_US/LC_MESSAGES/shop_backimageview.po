@@ -30,3 +30,36 @@ msgstr ""
 #: /wa-apps/shop/plugins/backimageview/lib/config/plugin.php:5
 msgid "Preview images in the store admin panel in the management of the goods"
 msgstr ""
+
+#: /wa-apps/shop/plugins/backimageview/templates/actions/settings/Settings.html:19
+msgid "Enable plugin"
+msgstr ""
+
+#: /wa-apps/shop/plugins/backimageview/templates/actions/settings/Settings.html:29
+msgid "Enable preview"
+msgstr ""
+
+#: /wa-apps/shop/plugins/backimageview/templates/actions/settings/Settings.html:39
+msgid "Preview max width"
+msgstr ""
+
+#: /wa-apps/shop/plugins/backimageview/templates/actions/settings/Settings.html:51
+msgid "Save"
+msgstr ""
+
+#: /wa-apps/shop/plugins/backimageview/templates/actions/settings/Settings.html:53
+#: /wa-apps/shop/plugins/backimageview/lib/actions/shopBackimageviewPluginBackend.actions.php:23
+msgid "Saved"
+msgstr ""
+
+#: /wa-apps/shop/plugins/backimageview/templates/actions/settings/Settings.html:64
+msgid "On"
+msgstr ""
+
+#: /wa-apps/shop/plugins/backimageview/templates/actions/settings/Settings.html:65
+msgid "Off"
+msgstr ""
+
+#: /wa-apps/shop/plugins/backimageview/templates/actions/settings/Settings.html:40
+msgid "Clear to set width auto"
+msgstr ""

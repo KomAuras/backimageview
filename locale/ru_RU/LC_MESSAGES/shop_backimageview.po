@@ -32,3 +32,36 @@ msgstr "Превью картинки в админке магазина в уп
 #: /wa-apps/shop/plugins/backimageview/templates/Toolbar.html:2
 msgid "Big photo"
 msgstr "Большая фотография"
+
+#: /wa-apps/shop/plugins/backimageview/templates/actions/settings/Settings.html:19
+msgid "Enable plugin"
+msgstr "Включить плагин"
+
+#: /wa-apps/shop/plugins/backimageview/templates/actions/settings/Settings.html:29
+msgid "Enable preview"
+msgstr "Включить превью"
+
+#: /wa-apps/shop/plugins/backimageview/templates/actions/settings/Settings.html:39
+msgid "Preview max width"
+msgstr "Максимальная ширина картинки"
+
+#: /wa-apps/shop/plugins/backimageview/templates/actions/settings/Settings.html:51
+msgid "Save"
+msgstr "Сохранить"
+
+#: /wa-apps/shop/plugins/backimageview/templates/actions/settings/Settings.html:53
+#: /wa-apps/shop/plugins/backimageview/lib/actions/shopBackimageviewPluginBackend.actions.php:23
+msgid "Saved"
+msgstr "Записано"
+
+#: /wa-apps/shop/plugins/backimageview/templates/actions/settings/Settings.html:64
+msgid "On"
+msgstr "Вкл"
+
+#: /wa-apps/shop/plugins/backimageview/templates/actions/settings/Settings.html:65
+msgid "Off"
+msgstr "Выкл"
+
+#: /wa-apps/shop/plugins/backimageview/templates/actions/settings/Settings.html:40
+msgid "Clear to set width auto"
+msgstr "Очистите для ширины по умолчанию"

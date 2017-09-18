@@ -1,7 +1,7 @@
 <div class="block">
-	<h6 class="heading">[`Big photo`]</h6>
+    <h6 class="heading">[`Big photo`]</h6>
     <ul class="menu-v with-icons compact p-no-photo-selected123 thumbs-view-menu">
-        <li><a class="backimageview-plugin" href="#" data-state="{$state}"><i class="icon16 {if $state==1}status-green{else}status-gray{/if}"></i>{if $state==1}[`Enabled`]{else}[`Disabled`]{/if}</a></li>
+        <li><a class="backimageview-plugin" href="#" data-state="{$state}" data-width="{$width}"><i class="icon16 {if $state==1}status-green{else}status-gray{/if}"></i>{if $state==1}[`Enabled`]{else}[`Disabled`]{/if}</a></li>
     </ul>
 </div>
 <script src="{$js_path}backimageview.js?v{$plugin_version}"></script>
